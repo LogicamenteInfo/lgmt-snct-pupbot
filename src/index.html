@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SNCT Pupbot - Logicamente</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:700,400,600%7CRoboto:400,700&amp;subset=latin-ext&amp;display=block"
+    rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="container">
+
+    <h1>Pup.Bot</h1>
+
+    <form>
+      <input type="search" placeholder="Pesquise um produto aqui..." required />
+      <button type="submit" class="button primary append">
+        <i class="material-icons">search</i>
+      </button>
+    </form>
+
+    <div>
+      <span>
+        Nenhum item adicionado - R$ 0,00
+      </span>
+      <button type="button" class="button primary">
+        <i class="material-icons">shopping_cart</i>
+      </button>
+    </div>
+
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li class="warning">
+          <i class="material-icons">sort</i> Todos os departamentos
+        </li>
+        <li>Ofertas</li>
+        <li>Cupons</li>
+        <li>SAC</li>
+      </ul>
+      <ul>
+        <li>
+          <i class="material-icons">phone</i> (69) 98501-6090
+        </li>
+        <li class="warning">
+          <i class="material-icons">language</i> Website
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1>Playstation 5</h1>
+    <div class="hr-decoration">
+      <hr />
+      <hr />
+    </div>
+    <div class="product-viewer">
+      <div class="product-gallery">
+        <img src="images/ps001.jpg" alt="PlayStation" class="active" />
+        <img src="images/ps002.jpg" alt="PlayStation" />
+        <img src="images/ps003.jpg" alt="PlayStation" />
+        <img src="images/ps004.jpg" alt="PlayStation" />
+        <img src="images/ps005.jpg" alt="PlayStation" />
+        <img src="images/ps006.jpg" alt="PlayStation" />
+      </div>
+      <div class="product-photo">
+        <img src="images/ps001.jpg" alt="PlayStation" />
+      </div>
+      <div class="product-info">
+        <ul class="tab-list">
+          <li class="active">Descrição</li>
+          <li>Especificações</li>
+          <li>Avaliações</li>
+        </ul>
+        <p>
+          Desfrute do carregamento extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com
+          suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma...
+          <button type="button" class="button small muted">Ver mais</button>
+        </p>
+        <div class="review">
+          <div class="review-stars">
+            <i class="material-icons">star_border</i>
+            <i class="material-icons">star_border</i>
+            <i class="material-icons">star_border</i>
+            <i class="material-icons">star_border</i>
+            <i class="material-icons">star_border</i>
+          </div>
+          <a href="#">Baseado em 0 avaliações</a>
+          <a href="#">Escreva uma avaliação</a>
+        </div>
+        <div class="shop-info">
+          <div class="price-info">
+            <span class="price-previous">R$ 4.999,89</span>
+            <span id="price" class="price-current">Carregando</span>
+            <span class="price-payment">À vista</span>
+          </div>
+          <div class="product-internal">
+            <i class="material-icons">alarm</i>
+            Pré-venda
+            </span>
+          </div>
+        </div>
+        <div class="cart-info">
+          <form>
+            <input type="number" required value="1" />
+            <button type="button" class="button primary">
+              <i class="material-icons">shopping_cart</i> Adicionar
+            </button>
+            <button type="submit" class="button success">
+              <i class="material-icons">attach_money</i> Comprar agora
+            </button>
+            <button type="button" class="button danger">
+              <i class="material-icons">help</i>
+            </button>
+          </form>
+        </div>
+        <div class="user-action">
+          <span>
+            <i class="material-icons">favorite_border</i> Adicionar à lista de desejos
+          </span>
+          <span>
+            <i class="material-icons">compare_arrows</i> Comparar este produto
+          </span>
+        </div>
+        <div class="social-media">
+          <a href="#" class="small text-primary">
+            <i class="material-icons">facebook</i> Facebook
+          </a>
+          <a class="small text-success">
+            <i class="material-icons">phone</i> Whatsapp
+          </a>
+          <a class="small text-dark">
+            <i class="material-icons">email</i> Email
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="page-generation">
+      Página carregada em <span id="generation">???</span>
+    </p>
+  </main>
+
+  <section class="related">
+    <div class="container">
+      <ul class="tab-list">
+        <li class="active">Produtos relacionados</li>
+        <li>Pessoas também compraram</li>
+      </ul>
+      <div class="list-products-related">
+        <div class="product-related">
+          <img src="images/hp001.jpg" alt="HeadPhone" />
+          <a href="#">Aewsome Headphone</a>
+          R$ 699,89
+          <hr />
+          <div class="user-actions">
+            <button type="button" class="button small primary">
+              <i class="material-icons">add</i> Adicionar
+            </button>
+            <button type="button" class="button small link text-danger">
+              <i class="material-icons">favorite_border</i>
+            </button>
+            <button type="button" class="button small link text-primary">
+              <i class="material-icons">compare_arrows</i>
+            </button>
+          </div>
+        </div>
+        <div class="product-related">
+          <img src="images/sp001.jpg" alt="HeadPhone" />
+          <a href="#">Aewsome Speaker</a>
+          R$ 1.920,80
+          <hr />
+          <div class="user-actions">
+            <button type="button" class="button small primary">
+              <i class="material-icons">add</i> Adicionar
+            </button>
+            <button type="button" class="button small link text-danger">
+              <i class="material-icons">favorite_border</i>
+            </button>
+            <button type="button" class="button small link text-primary">
+              <i class="material-icons">compare_arrows</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="menu-footer">
+    <div class="container">
+      <div class="context">
+        <h3>Sobre nós</h3>
+        <hr />
+        <ul>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Entrega</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos e Condições</a></li>
+        </ul>
+      </div>
+      <div class="context">
+        <h3>Serviço ao Cliente</h3>
+        <hr />
+        <ul>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Estorno</a></li>
+          <li><a href="#">Mapa do Site</a></li>
+          <li><a href="#">Marcas</a></li>
+        </ul>
+      </div>
+      <div class="context">
+        <h3>Minha conta</h3>
+        <hr />
+        <ul>
+          <li><a href="#">Perfil</a></li>
+          <li><a href="#">Histórico de compras</a></li>
+          <li><a href="#">Afiliados</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Cupons</a></li>
+        </ul>
+      </div>
+      <div class="context">
+        <h3>Newsletter</h3>
+        <hr />
+        <p>Fique atualizado com novidades e promoções ao assinar nossa newsletter.</p>
+        <form>
+          <input type="email" placeholder="Seu email" required />
+          <button type="submit" class="button small primary">
+            <i class="material-icons">email</i>
+          </button>
+        </form>
+        <span>
+          <input type="checkbox" /> Declaro que li e aceito a <br />
+          <a href="#">Política de Privacidade</a>.
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="legal-footer">
+    <div class="container">
+      <small>Copyright &copy 2020, Logicamente.</small>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

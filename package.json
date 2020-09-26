@@ -1,0 +1,22 @@
+{
+  "name": "lgmt-snct-pupbot-demo",
+  "version": "1.0.0",
+  "description": "Demonstração de pagina e-commerce com produto",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s src -l 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logicamenteinfo/lgmt-snct-pupbot.git"
+  },
+  "author": "Natanael Simoes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/logicamenteinfo/lgmt-snct-pupbot/issues"
+  },
+  "homepage": "https://github.com/logicamenteinfo/lgmt-snct-pupbot#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
