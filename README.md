@@ -22,11 +22,13 @@ Monitorar o preço de um produto, e assim que for detectada uma redução enviar
 
 ## Configurações
 
+```
 PUSHBULLET_TOKEN=
 TARGET_SITE=https://logicamenteinfo.github.io/lgmt-snct-pupbot/
 TARGET_ID=price
 PRICE_THRESHOLD=449900
 REFRESH_TIME=2000
+```
 
 Chave | Valor
 :-- | :--
